@@ -1,10 +1,16 @@
 <html xmlns="http://www.w3.org/1999/html">
 <head>
-<title>filling form online</title>
+<title>Order Form Online</title>
 </head>
 <body>
-<form action="http://127.0.0.1:9090/login" method="post">
-    User:<input type="text" name="username"><br>
+<form action="http://127.0.0.1:9090/" method="post">
+    Applicant:<input type="text" name="applicant"><br>
+    Ship To:
+    <select name="customer">
+        <option value ="Agricultural Bank of China">Agricultural Bank of China</option>
+        <option value ="Bank of China">Bank of China</option>
+        <option value ="China Construction Bank">China Construction Bank</option>
+    </select><br>
 <input type="submit" value="Export">
 </form>
 </body>
